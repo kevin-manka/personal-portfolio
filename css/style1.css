@@ -1,0 +1,59 @@
+/*Format navigation bar*/
+.navigation a {
+	text-align: left;
+	float: inline-center;
+	color: black;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-family: Arial, Verdana;
+	font-size: 14px;
+	background-color: #E7E7E7;
+}
+
+/*Format navigation bar elements when hovered*/
+.navigation a:hover {
+	background-color: #6EA6D5;
+	color: #E7E7E7;
+}
+
+/*Format individual sections*/
+.home, .contact {background-color: #E7E7E7;}
+.about, .workexperience, .footer {background-color: #6EA6D5;}
+
+/*Assign colors to specific text styles*/
+h1 {color: #6EA6D5;}
+h4, p {color: #E7E7E7;}
+
+/*Assign fonts and text justification specific text styles*/
+h1, h2, h3, h4, p, label {
+	font-family: Arial, Verdana;
+	text-align:center;
+	margin-left: 350px;
+	margin-right: 350px;
+}
+
+/*Format image justification*/
+button, img {
+	display: block;
+	margin: 0 auto;
+}
+
+/* Format contact form*/
+input[type=text], select, textarea {
+	width: 50%;
+	padding: 10px;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	margin-left: 25%;
+}
+
+/* Format contact form submit button*/
+input[type=submit] {
+	background-color: #6EA6D5;
+	color: #E7E7E7;
+	padding: 10px 10px;
+	border: none;
+	cursor: pointer;
+	margin-left: 25%;
+}
